@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "target/webapp/app",
+    "types": ["node"]
+  },
+  "files": [
+    "webapp/main.ts",
+    "webapp/polyfills.ts"
+  ],
+  "include": [
+    "webapp/**/*.d.ts"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "outDir": "target/webapp",
+    "paths": {
+      "app/*": ["webapp/app/*"]
+    },
+    "sourceMap": true,
+	"skipLibCheck": true,
+    "declaration": false,
+    "module": "es2020", // add this line
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "target": "es2020",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "preserveSymlinks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "webapp/main.ts",
+    "webapp/polyfills.ts",
+    "webapp/app"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "emitDecoratorMetadata": false
+}

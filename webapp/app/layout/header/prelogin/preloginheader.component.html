@@ -1,0 +1,83 @@
+<div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary pre-login-header">
+<span class="float-right" (click)="toogleSideBar()"><i class="icon icon-cross"></i></span>
+         <div class="container-fluid p-0">
+          <div class="navbar-wrapper">
+              <div class="toggle-sidebar float-left ml-4 pt-2" (click)="toogleSideBar()">
+            <span class="navbar-toggler-icon icon-bar bg-white"></span>
+            <span class="navbar-toggler-icon icon-bar bg-white"></span>
+            <span class="navbar-toggler-icon icon-bar bg-white"></span>
+           </div>
+             <a class="navbar-brand" [routerLink]="'/home'" >
+                     <!-- <img src="./assets/images/logo.jpg" alt="logo" style="width:40px" /> -->
+            </a>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="navbar-toggler-icon icon-bar"></span>
+	            <span class="navbar-toggler-icon icon-bar"></span>
+	            <span class="navbar-toggler-icon icon-bar"></span>
+          	</button>
+            <div class="collapse navbar-collapse justify-content-end custom-search">
+                <div class="navbar-form">
+                    <div class="input-group no-border">
+
+                             <select class="form-control-sm mr-2" #langSelect (change)="translate.use(langSelect.value)">
+                                   <option value=""> {{ 'ChooseLangauge' | translate }}</option>
+                                    <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">
+                                              {{lang}}</option>
+                              </select>
+                    </div>
+                </div>
+               <ul class="navbar-nav">
+<li class="nav-item mr-2">
+            <button class="btn-sm btn-primary" (click)="open(content)">{{'SQM' | translate}}</button>
+            </li>
+            <li class="nav-item mr-2">
+            <button type="button" class="btn-sm btn-primary"  (click)="appAdmin()">{{'Monitor' | translate}}</button>
+            </li>
+
+
+               </ul>
+
+
+            </div>
+         </div>
+	</div>
+<ng-template #content let-modal>
+   <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">{{ 'SuportPageHeaderName' | translate}}</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+         <span aria-hidden="true">&times;</span>
+      </button>
+   </div>
+   <div class="modal-body sqm-modal">
+      <form name="SuportPage" id="SupportTeamFormId" [formGroup]="form" method="post" novalidate>
+         <div class="custom-form-group">
+            <div class="form-group">
+               <label for="SubjectId">{{ 'SuportPageSubjectName' | translate }} </label>
+               <input type="textArea" name="subject" id="SubjectId" class="form-control validate"
+                  formControlName="subject" required>
+               <div class="invalid-feedback"> </div>
+            </div>
+            <div class="form-group">
+               <label for="MessageId"> {{ 'SuportPageMessageName' | translate }}</label>
+               <textarea name="message" id="MessageId" class="form-control validate" formControlName="message" row="3"
+                  required></textarea>
+               <div class="invalid-feedback"> </div>
+            </div>
+            <input type="hidden" name="ScreenPat" formControlName="screenPath" id="ScreenPathId"
+               class="form-control validate" required>
+            <small class="text-success">{{ 'SuportPageMailMessage' | translate }}</small>
+         </div>
+
+         <div class="modal-footer">
+            <button type="button" class="btn btn-primary" id="btnSendMail" (click)="sendEmail()">{{
+               'SuportPageButtonName' | translate}}</button>
+         </div>
+
+      </form>
+
+   </div>
+
+</ng-template>

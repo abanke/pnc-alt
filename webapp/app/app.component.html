@@ -1,0 +1,33 @@
+<!-- <app-breadcrumb></app-breadcrumb> -->
+<!--
+<router-outlet>
+
+</router-outlet> -->
+
+<div class="row">
+  <div class="col-12">
+    <!-- Header -->
+
+    <app-preloginheader *ngIf="showPreHeader"></app-preloginheader>
+    <app-postloginheader *ngIf="showPostHeader"></app-postloginheader>
+  </div>
+</div>
+<div class="row">
+  <div class="sidebar" *ngIf="showSidebar">
+    <div class="sidebar-wrapper">
+      <app-menu *ngIf="showSidebar"></app-menu>
+    </div>
+  </div>
+  <div class="w-100">
+    <router-outlet>
+      <alert></alert>
+    </router-outlet>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <!-- Footer -->
+    <app-preloginfooter *ngIf="showPreFooter"></app-preloginfooter>
+    <app-postloginfooter *ngIf="showPostFooter"></app-postloginfooter>
+  </div>
+</div>

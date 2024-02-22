@@ -1,0 +1,17 @@
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+.sqm-modal {
+    label{
+        top:0;
+    }
+}
+.button-top-right{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+.table-responsive{
+   overflow-x: unset;
+}
+.modal {
+	z-index: 1060;
+}

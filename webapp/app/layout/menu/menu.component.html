@@ -1,0 +1,68 @@
+<div class="sidebar-custom-navbar" style=" background-image: url('../../../assets/images/');">
+   <div class="mobile-menu-header float-left w-100 border-bottom mobile-show">
+      <a class="navbar-brand mobile-show" id="home">
+         <img src="./assets/images/logo.jpg" alt="logo" style="width:40px" />
+      </a>
+      <span class="float-right" (click)="toogleSideBar()"><i class="icon icon-cross"></i></span>
+      <button class="navbar-toggler mobile-show" type="button" data-toggle="collapse" (click)="navbarOpen = !navbarOpen"
+         aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="navbar-toggler-icon icon-bar"></span>
+         <span class="navbar-toggler-icon icon-bar"></span>
+         <span class="navbar-toggler-icon icon-bar"></span>
+      </button>
+   </div>
+   <div class="collapse navbar-collapse justify-content-end custom-search"
+      [ngClass]="{show: navbarOpen, hide: !navbarOpen}">
+      <ul class="navbar-nav mr-auto">
+         <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/home'" id="home">
+               <i class="fa fa-home"></i>
+               <span class="ml-2"> {{ 'Menu.Home.Name' | translate }}</span>
+            </a>
+
+
+
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/users'" id="users">
+               <i class="fa fa-th"></i>
+               <span class="ml-2"> {{ 'Menu.Users.Name' | translate }}</span>
+            </a>
+
+
+
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/assignuserrole'" id="assignuserrole">
+               <i class="fa fa-th"></i>
+               <span class="ml-2"> {{ 'Menu.AssignUserRole.Name' | translate }}</span>
+            </a>
+
+
+
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/assignroleauthority'" id="assignroleauthority">
+               <i class="fa fa-th"></i>
+               <span class="ml-2"> {{ 'Menu.AssignRoleAuthority.Name' | translate }}</span>
+            </a>
+
+
+
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" [routerLink]="'/rolecreation'" id="rolecreation">
+               <i class="fa fa-th"></i>
+               <span class="ml-2"> {{ 'Menu.CreateRole.Name' | translate }}</span>
+            </a>
+
+
+
+         </li>
+
+
+
+      </ul>
+   </div>
+</div>

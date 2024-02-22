@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<div class="login-wrapper container-fluid" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
+    <div class="row logo-wrapper">
+        <div class="col-12 text-center mb-4">
+            
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <!-- Page section Start -->
+
+
+
+            <div class="card">
+
+                <div
+                    class="card-header card-header-primary bg-primary d-flex align-items-center justify-content-between ">
+
+                    <h4 class="card-title">{{'WebLogin.Section6.Title' | translate}}</h4>
+
+                </div>
+                <!-- Section Form  Staart-->
+
+
+                <div class="card-body">
+
+                    <form name="Section6" id="Section6Id" [formGroup]="authorizedUserform" method="post" novalidate>
+
+                        <div class="mb-4"><small><i class="text-danger">All * fields are mandatory</i></small></div>
+
+                        <div class="row custom-form-group">
+                            <div class="text-center w-100  mb-3"><span
+                                    class="from-group-name  pb-2 font-weight-bold">Login</span></div>
+                            <!-- Form Field Generation   Staart-->
+                            <div class=" form-group col-lg-3 col-md-6 col-12 tooltip-wrapper">
+
+
+
+                                <input type="text" name="email" formControlName="email" class="form-control"
+                                    placeholder="Email" id="emailId">
+                                <i class="fa fa-user"></i>
+                                <label for="emailId" class="form-label">{{ 'WebLogin.Section6.Email.Label' | translate
+                                    }} </label>
+
+                                <div *ngIf="submitted &&authorizedUserf.email.errors" class="invalid-feedback">
+                                    <div *ngIf="authorizedUserf.email.errors.required">
+                                        {{ 'WebLogin.Section6.Email.DefaultErrorMsg' | translate }}
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <!-- Form Field Generation  ss End-->
+                            <!-- Form Field Generation   Staart-->
+                            <div class=" form-group col-lg-3 col-md-6 col-12 tooltip-wrapper">
+                                <input type="password" name="password" formControlName="password" class="form-control"
+                                    placeholder="Password" id="passwordId"
+                                    [ngClass]="{ 'is-invalid': submitted && authorizedUserf.password.errors }">
+                                <i class="fa fa-user"></i>
+                                <label for="passwordId" class="form-label">{{ 'WebLogin.Section6.Password.Label' |
+                                    translate }} <span class="text-danger"> *</span></label>
+
+                                <div *ngIf="submitted &&authorizedUserf.password.errors" class="invalid-feedback">
+                                    <div *ngIf="authorizedUserf.password.errors.required">
+                                        {{ 'WebLogin.Section6.Password.DefaultErrorMsg' | translate }}
+                                    </div>
+
+                                    <div *ngIf="authorizedUserf.password.errors.pattern">
+                                        {{ 'PasswordErrorMsg' | translate }}
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Form Field Generation  ss End-->
+                        </div>
+                        <div class="row">
+                            <div class="col-12 ">
+                                <a id="webforgotpassword"
+                                    [routerLink]="'/webforgotpassword'">{{'WebLogin.Section6.WebForgotPassword.Label'|
+                                    translate}} </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 form-btn">
+                                <button class="btn btn-primary float-left" name="Button7" id="loginId"
+                                    (click)="login()">{{ 'WebLogin.Section6.Button7.Label' | translate }} </button>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 ">
+                                <a 
+                                    [routerLink]="'/webregister'">Registration </a>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- Section Form End here -->
+                </div>
+            </div>
+
+
+            <!-- Page section End -->
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Nunito_Sans_Light";
+    src: url("../fonts/Nunito_Sans/NunitoSans-Light.ttf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Nunito_Sans_Semi_Bold";
+    src: url("../fonts/Nunito_Sans/NunitoSans-SemiBold.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Nunito_Sans_Bold";
+    src: url("../fonts/Nunito_Sans/Nunito-Bold.ttf");
+    font-weight: 700;
+}
+$Nunito_Sans_Light: 'Nunito_Sans_Light';
+$Nunito_Sans_Semi_Bold: 'Nunito_Sans_Semi_Bold';
+$Nunito_Sans_Bold: 'Nunito_Sans_Bold';
+
+
+
+
+

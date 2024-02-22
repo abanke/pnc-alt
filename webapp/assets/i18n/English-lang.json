@@ -1,0 +1,1056 @@
+{
+    "TableDeleteLabel":"Delete",
+    "PasswordErrorMsg":"Minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character",
+    "VerificationPageVarificationTwofactorCodeDefaultErrorMsg":"Enter valid secure code",
+    "Action":"Action",
+    "SuportPageHeaderName":"Send Mail to support",
+    "PreLoginLoginWelcome":"Welcome Back",
+    "ChooseLangauge":"Choose Language",
+    "PreLoginLoginLabel":"Login",
+    "TwoFactorAutAuthenticationTitle":"Two Factor Authentication",
+    "MenuEntity":"Entity",
+    "Monitor":"Monitor",
+    "TableAddLabel":"Add",
+    "Loading":"Loading",
+    "VerificationPageVerificationVerifyName":"Submit",
+    "MenuMonitor":"Monitor",
+    "SuportPageButtonName":"Send",
+    "MenuLabel":"Menu",
+    "EnableTwoFactorAuthentication":"Enable Two Factor Authentication",
+    "MenuProcess":"Processes",
+    "VerificationPageVerificationTwofactorCodeName":"TwofactorCode",
+    "SQM":"SQM",
+    "SuportPageMailMessage":"Email will be send along with the captured screen",
+    "VerificationPageVerificationVerifyConfirmationMessage":"Submit Successfully",
+    "English":"English",
+    "PreLoginRegisterLabel":"Register",
+    "EmailErrorMessage":"Invalid Email Address",
+    "LoginErrorMessage":"Email or Password Invalid Please verify",
+    "SuportPageSubjectName":"Subject",
+    "VerificationPageVerificationTwofactorCodeLabel":"Enter Secure code",
+    "Close":"Close",
+    "TableEditLabel":"Edit",
+    "SuportPageMessageName":"Message",
+    "Entity":
+	{
+    "AuthorizedUser":
+    	{
+    	"Name":"Authorized User"
+    	},
+    "UserRole":
+    	{
+    	"Name":"User To Role Map"
+    	},
+    "RoleAuthority":
+    	{
+    	"Name":"Role To Authority Map"
+    	},
+    "Tenant":
+    	{
+    	"Name":"Tenant"
+    	}
+	},
+	"Menu":
+	{
+	"Name":"Menu",
+	"Title":"Menu",
+		"Home":{
+		"Name":"Home"
+		},
+		"Users":{
+		"Name":"Users"
+		},
+		"AssignUserRole":{
+		"Name":"Assign UserToRole"
+		},
+		"AssignRoleAuthority":{
+		"Name":"Assign RoleAuthority"
+		},
+		"CreateRole":{
+		"Name":"Create a Role"
+		}
+	},
+	"PreLogInFooter":{
+		"Name":"PreLogInFooter",
+		"Title":""
+		,
+		"Facebook":{
+		"Name":""
+		},
+		"Twitter":{
+		"Name":""
+		},
+		"LinkedIn":{
+		"Name":""
+		}
+
+	},
+	"PostLogInFooter":{
+		"Name":"PostLogInFooter",
+		"Title":""
+		,
+		"AboutUs":{
+		"Name":""
+		}
+
+	}
+,
+	"PostLogInHeader":{
+		"Name":"PostLogInHeader",
+		"Title":""
+		,
+		"MyProfile":{
+		"Name":"MyProfile"
+		},
+		"ChangePasswordLink":{
+		"Name":"ChangePasswordLink"
+		},
+		"Logout":{
+		"Name":"Logout"
+		}
+	},
+	"PreLogInHeader":{
+		"Name":"PreLogInHeader",
+		"Title":""
+		,
+		"ResetPassword":{
+		"Name":"ResetPassword"
+		},
+		"ActivateUser":{
+		"Name":"ActivateUser"
+		}
+	}
+,
+  "WebRegister":
+   {
+    "Name":"WebRegister",
+    "Title":"Web Register",
+        "Section1":{
+          "Name": "Section1",
+           "Title":"Register"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "LoginId":{
+            "Name":" LoginId",
+            "Label":"Login Id",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid LoginId",
+            "HelpText":"Enter your loginId"
+            },
+           "Email":{
+            "Name":" Email",
+            "Label":"Email",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid Email",
+            "HelpText":"Enter your mail"
+            },
+           "Password":{
+            "Name":" Password",
+            "Label":"Password",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid password",
+            "HelpText":"Enter your password"
+            },
+           "FirstName":{
+            "Name":" FirstName",
+            "Label":"First Name",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid First Name",
+            "HelpText":"Enter your First Name"
+            },
+           "LastName":{
+            "Name":" LastName",
+            "Label":"Last Name",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid Last Name",
+            "HelpText":"Enter your Last Name"
+            },
+           "MobilePhone":{
+            "Name":" MobilePhone",
+            "Label":"Mobile Phone",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid Mobile No",
+            "HelpText":"Enter yor Mobile No"
+            },
+           "TimeZoneList":{
+            "Name":" TimeZoneList",
+            "Label":"TimeZone List",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid TimeZone",
+            "HelpText":"Enter TimeZone"
+            },
+           "LocaleList":{
+            "Name":" LocaleList",
+            "Label":"Locale List",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            }
+            ,
+           "Button1":{
+           		"Name":"Button1",
+           		"Label":"Register",
+                "ConfirmMessage":""
+           	}
+            ,
+             "WebLogin":{
+             "Name":"WebLogin",
+             "Label":"Login"
+             	},
+               "confirmation":{
+                    "Name":"Confirm",
+                    "Label":"Confirm"
+               }
+           }
+             },
+  "ViewUsers":
+   {
+    "Name":"ViewUsers",
+    "Title":"View Users",
+        "Section2":{
+          "Name": "Section2",
+           "Title":"View Users"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "Id":{
+            "Name":" Id",
+            "Label":"Id",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid Id",
+            "HelpText":"Enter  Id"
+            },
+           "LoginId":{
+            "Name":" LoginId",
+            "Label":"Login Id",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid LoginId",
+            "HelpText":"Enter LoginId"
+            },
+           "Email":{
+            "Name":" Email",
+            "Label":"Email",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid Email",
+            "HelpText":"Enter  Email"
+            },
+           "FirstName":{
+            "Name":" FirstName",
+            "Label":"FirstName",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid FirstName",
+            "HelpText":"Enter  FirstName"
+            },
+           "LastName":{
+            "Name":" LastName",
+            "Label":"LastName",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid LastName",
+            "HelpText":"Enter LastName"
+            },
+           "MobilePhone":{
+            "Name":" MobilePhone",
+            "Label":"MobilePhone",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid MobilePhone",
+            "HelpText":"Enter your Mobile Phone"
+            },
+           "FailedLogins":{
+            "Name":" FailedLogins",
+            "Label":"Failed Logins",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid Failed Logins",
+            "HelpText":"Enter Failed Logins"
+            },
+           "IsActive":{
+            "Name":" IsActive",
+            "Label":"IsActive",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid IsActive",
+            "HelpText":"Enter IsActive"
+            }
+            ,
+           "Button2":{
+           		"Name":"Button2",
+           		"Label":"Select",
+                "ConfirmMessage":""
+           	},
+           "Button3":{
+           		"Name":"Button3",
+           		"Label":"Add",
+                "ConfirmMessage":""
+           	},
+           "Button4":{
+           		"Name":"Button4",
+           		"Label":"Edit",
+                "ConfirmMessage":""
+           	},
+           "Button5":{
+           		"Name":"Button5",
+           		"Label":"Delete",
+                "ConfirmMessage":""
+           	}
+           }
+             },
+  "CreateUser":
+   {
+    "Name":"CreateUser",
+    "Title":"Create User",
+        "Section9":{
+          "Name": "Section9",
+           "Title":"Create Authorized User"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "LoginId":{
+            "Name":" LoginId",
+            "Label":"Login Id",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            },
+           "Password":{
+            "Name":" Password",
+            "Label":"Password",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            },
+           "Email":{
+            "Name":" Email",
+            "Label":"Email",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            },
+           "FirstName":{
+            "Name":" FirstName",
+            "Label":"First Name",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            },
+           "LastName":{
+            "Name":" LastName",
+            "Label":"Last Name",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            },
+           "MobilePhone":{
+            "Name":" MobilePhone",
+            "Label":"Mobile Phone",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            },
+           "TimeZoneList":{
+            "Name":" TimeZoneList",
+            "Label":"TimeZone List",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            },
+           "LocaleList":{
+            "Name":" LocaleList",
+            "Label":"Locale List",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            }
+            ,
+           "Button10":{
+           		"Name":"Button10",
+           		"Label":"Submit",
+                "ConfirmMessage":""
+           	}
+           }
+             },
+  "AboutUs":
+   {
+    "Name":"AboutUs",
+    "Title":"About Us",
+        "Section4":{
+          "Name": "Section4",
+           "Title":"About Us"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "Welcome":{
+            "Name":" Welcome",
+            "Label":"Welcome",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            },
+           "Heading":{
+            "Name":" Heading",
+            "Label":"Heading",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            }
+                       }
+             },
+  "Home":
+   {
+    "Name":"Home",
+    "Title":"Home1",
+        "Section5":{
+          "Name": "Section5",
+           "Title":"Home"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "Home":{
+            "Name":" Home",
+            "Label":"Home",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            }
+                       }
+             },
+  "WebLogin":
+   {
+    "Name":"WebLogin",
+    "Title":"Web Login",
+        "Section6":{
+          "Name": "Section6",
+           "Title":"Login"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "Email":{
+            "Name":" Email",
+            "Label":"Email",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            },
+           "Password":{
+            "Name":" Password",
+            "Label":"Password",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            }
+            ,
+           "Button7":{
+           		"Name":"Button7",
+           		"Label":"Login",
+                "ConfirmMessage":""
+           	},
+           "Button19":{
+           		"Name":"Button19",
+           		"Label":"Sign Up",
+                "ConfirmMessage":""
+           	}
+            ,
+             "WebForgotPassword":{
+             "Name":"WebForgotPassword",
+             "Label":"Forgot Password"
+             	}
+           }
+             },
+  "ResetPassword":
+   {
+    "Name":"ResetPassword",
+    "Title":"Reset Password",
+        "Section8":{
+          "Name": "Section8",
+           "Title":"Reset Password"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "NewPassword":{
+            "Name":" NewPassword",
+            "Label":"New Password",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" invalid NewPassword",
+            "HelpText":""
+            },
+           "ReTypePassword":{
+            "Name":" ReTypePassword",
+            "Label":"ReType Password",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid ReTypePassword",
+            "HelpText":""
+            },
+           "UserId":{
+            "Name":" UserId",
+            "Label":"UserId",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid UserId",
+            "HelpText":"Enter  UserId"
+            }
+            ,
+           "Button8":{
+           		"Name":"Button8",
+           		"Label":"Submit",
+                "ConfirmMessage":""
+           	}
+           }
+             },
+  "WebForgotPassword":
+   {
+    "Name":"WebForgotPassword",
+    "Title":"Web Forgot Password",
+        "Section9":{
+          "Name": "Section9",
+           "Title":"Forgot Password"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "Email":{
+            "Name":" Email",
+            "Label":"Email",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid Email",
+            "HelpText":"Enter valid email"
+            }
+            ,
+           "Button9":{
+           		"Name":"Button9",
+           		"Label":"Reset Password",
+                "ConfirmMessage":""
+           	}
+            ,
+             "WebLogin":{
+             "Name":"WebLogin",
+             "Label":"Login"
+             	}
+           }
+             },
+  "ChangePassword":
+   {
+    "Name":"ChangePassword",
+    "Title":"Change Password",
+        "Section11":{
+          "Name": "Section11",
+           "Title":"Change Password"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "ExistingPassword":{
+            "Name":" ExistingPassword",
+            "Label":"Existing Password",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid Password",
+            "HelpText":""
+            },
+           "NewPassword":{
+            "Name":" NewPassword",
+            "Label":"New Password",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid New Password",
+            "HelpText":""
+            },
+           "ReTypePassword":{
+            "Name":" ReTypePassword",
+            "Label":"ReType Password",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid ReTypePassword",
+            "HelpText":""
+            }
+            ,
+           "Button11":{
+           		"Name":"Button11",
+           		"Label":"Submit",
+                "ConfirmMessage":""
+           	}
+           }
+             },
+  "UpdateUser":
+   {
+    "Name":"UpdateUser",
+    "Title":"Update User",
+        "Section12":{
+          "Name": "Section12",
+           "Title":"Update AuthorizedUser"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "Id":{
+            "Name":" Id",
+            "Label":"Id",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid Id",
+            "HelpText":"Enter  Id"
+            },
+           "LoginId":{
+            "Name":" LoginId",
+            "Label":"Login Id",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid LoginId",
+            "HelpText":"Enter LoginId"
+            },
+           "Email":{
+            "Name":" Email",
+            "Label":"Email",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid Email",
+            "HelpText":"Enter  Email"
+            },
+           "FirstName":{
+            "Name":" FirstName",
+            "Label":"First Name",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid FirstName",
+            "HelpText":"Enter  FirstName"
+            },
+           "LastName":{
+            "Name":" LastName",
+            "Label":"Last Name",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid LastName",
+            "HelpText":"Enter  LastName"
+            },
+           "MobilePhone":{
+            "Name":" MobilePhone",
+            "Label":"Mobile Phone",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid MobilePhone",
+            "HelpText":"Enter your MobilePhone"
+            },
+           "FailedLogins":{
+            "Name":" FailedLogins",
+            "Label":"Failed Logins",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid FailedLogins",
+            "HelpText":"Enter FailedLogins"
+            },
+           "IsActive":{
+            "Name":" IsActive",
+            "Label":"IsActive",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid IsActive",
+            "HelpText":"Enter IsActive"
+            },
+           "TimeZoneList":{
+            "Name":" TimeZoneList",
+            "Label":"TimeZone List",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid TimeZone",
+            "HelpText":"Enter TimeZone"
+            },
+           "LocaleList":{
+            "Name":" LocaleList",
+            "Label":"Locale List",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid Locale",
+            "HelpText":"Select locale TimeZone"
+            }
+            ,
+           "Button12":{
+           		"Name":"Button12",
+           		"Label":"Submit",
+                "ConfirmMessage":""
+           	}
+           }
+             },
+  "MobileForgotPassword":
+   {
+    "Name":"MobileForgotPassword",
+    "Title":"Mobile Forgot Password",
+        "Section15":{
+          "Name": "Section15",
+           "Title":"Forgot Password"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "MobileNo":{
+            "Name":" MobileNo",
+            "Label":"Mobile Number",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid Email",
+            "HelpText":"Enter valid email"
+            }
+            ,
+           "Button13":{
+           		"Name":"Button13",
+           		"Label":"Send Otp",
+                "ConfirmMessage":""
+           	}
+           }
+             },
+  "VerifyOtp":
+   {
+    "Name":"VerifyOtp",
+    "Title":"Verify OTP",
+        "Section21":{
+          "Name": "Section21",
+           "Title":"Verify Otp"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "VerifyOtp":{
+            "Name":" VerifyOtp",
+            "Label":"Verify Otp",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            }
+            ,
+           "Button18":{
+           		"Name":"Button18",
+           		"Label":"Verify Otp",
+                "ConfirmMessage":""
+           	}
+           }
+             },
+  "MobileLogin":
+   {
+    "Name":"MobileLogin",
+    "Title":"Mobile Login",
+        "Section12":{
+          "Name": "Section12",
+           "Title":"Login"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "Email":{
+            "Name":" Email",
+            "Label":"Email",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            },
+           "Password":{
+            "Name":" Password",
+            "Label":"Password",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            }
+            ,
+           "Button11":{
+           		"Name":"Button11",
+           		"Label":"Login",
+                "ConfirmMessage":""
+           	},
+           "Button20":{
+           		"Name":"Button20",
+           		"Label":"Sign Up",
+                "ConfirmMessage":""
+           	}
+            ,
+             "MobileForgotPassword":{
+             "Name":"MobileForgotPassword",
+             "Label":"MobileApp Forgot Password "
+             	}
+           }
+             },
+  "UserRoleMap":
+   {
+    "Name":"UserRoleMap",
+    "Title":"User To Role Mapping",
+        "Section13":{
+          "Name": "Section13",
+           "Title":"User Managment"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "AuthorizedUser":{
+            "Name":" AuthorizedUser",
+            "Label":"User",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            },
+           "RoleList":{
+            "Name":" RoleList",
+            "Label":"Role",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            }
+            ,
+           "Button13":{
+           		"Name":"Button13",
+           		"Label":"Assign",
+                "ConfirmMessage":""
+           	}
+           }
+             },
+  "RegistrationEmail":
+   {
+    "Name":"RegistrationEmail",
+    "Title":"Registration Email",
+        "Section16":{
+          "Name": "Section16",
+           "Title":"User Registration"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "Email":{
+            "Name":" Email",
+            "Label":"Email",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            }
+            ,
+           "Button17":{
+           		"Name":"Button17",
+           		"Label":"RegistrationwithTenant",
+                "ConfirmMessage":""
+           	}
+           }
+             },
+  "TenantUserRegistration":
+   {
+    "Name":"TenantUserRegistration",
+    "Title":"Tenant User Registration",
+        "Section1":{
+          "Name": "Section1",
+           "Title":"Registration"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "TenantName":{
+            "Name":" TenantName",
+            "Label":"Tenant Id",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            },
+           "LoginId":{
+            "Name":" LoginId",
+            "Label":"Login Id",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid LoginId",
+            "HelpText":"Enter your loginId"
+            },
+           "Email":{
+            "Name":" Email",
+            "Label":"Email",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid Email",
+            "HelpText":"Enter your mail"
+            },
+           "Password":{
+            "Name":" Password",
+            "Label":"Password",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid password",
+            "HelpText":"Enter your password"
+            },
+           "FirstName":{
+            "Name":" FirstName",
+            "Label":"First Name",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid First Name",
+            "HelpText":"Enter your First Name"
+            },
+           "LastName":{
+            "Name":" LastName",
+            "Label":"Last Name",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid Last Name",
+            "HelpText":"Enter your Last Name"
+            },
+           "MobilePhone":{
+            "Name":" MobilePhone",
+            "Label":"Mobile Phone",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid Mobile No",
+            "HelpText":"Enter yor Mobile No"
+            },
+           "LocaleList":{
+            "Name":" LocaleList",
+            "Label":"Locale List",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            },
+           "TimeZoneList":{
+            "Name":" TimeZoneList",
+            "Label":"TimeZone List",
+            "DefaultValue":"",
+            "DefaultErrorMsg":" Invalid TimeZone",
+            "HelpText":"Enter TimeZone"
+            }
+            ,
+           "Button1":{
+           		"Name":"Button1",
+           		"Label":"Register",
+                "ConfirmMessage":""
+           	}
+            ,
+             "WebLogin":{
+             "Name":"WebLogin",
+             "Label":"Login"
+             	}
+           }
+             },
+  "MobileRegister":
+   {
+    "Name":"MobileRegister",
+    "Title":"Mobile Register",
+        "Section16":{
+          "Name": "Section16",
+           "Title":"User Registration"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "Email":{
+            "Name":" Email",
+            "Label":"Email",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            }
+            ,
+           "Button17":{
+           		"Name":"Button17",
+           		"Label":"RegistrationwithTenant",
+                "ConfirmMessage":""
+           	}
+           }
+             },
+  "CreateRole":
+   {
+    "Name":"CreateRole",
+    "Title":"Create Role",
+        "Section35":{
+          "Name": "Section35",
+           "Title":"CreateRoles"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "Id":{
+            "Name":" Id",
+            "Label":"Role Id",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            },
+           "Label":{
+            "Name":" Label",
+            "Label":"Role Name",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            },
+           "IsActive":{
+            "Name":" IsActive",
+            "Label":"Is Active",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            }
+            ,
+           "Button21":{
+           		"Name":"Button21",
+           		"Label":"Save",
+                "ConfirmMessage":""
+           	}
+           }
+             },
+  "RoleAuthority":
+   {
+    "Name":"RoleAuthority",
+    "Title":"Role Authority",
+        "Section37":{
+          "Name": "Section37",
+           "Title":"RoleAuthority"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "RoleList":{
+            "Name":" RoleList",
+            "Label":"Role",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            },
+           "AuthorityList":{
+            "Name":" AuthorityList",
+            "Label":"Authority",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            }
+            ,
+           "Button22":{
+           		"Name":"Button22",
+           		"Label":"Assign",
+                "ConfirmMessage":""
+           	}
+           }
+             },
+  "UserRole":
+   {
+    "Name":"UserRole",
+    "Title":"User Role",
+        "Section39":{
+          "Name": "Section39",
+           "Title":"User Role"
+            ,
+             "FormGroup1":{
+                "Name":" FormGroup1"
+                }
+           ,
+           "AuthorizedUser":{
+            "Name":" AuthorizedUser",
+            "Label":"User",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            },
+           "RoleList":{
+            "Name":" RoleList",
+            "Label":"Role",
+            "DefaultValue":"",
+            "DefaultErrorMsg":"",
+            "HelpText":""
+            }
+            ,
+           "Button23":{
+           		"Name":"Button23",
+           		"Label":"Assign",
+                "ConfirmMessage":""
+           	}
+           }
+             }
+}

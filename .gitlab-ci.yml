@@ -1,0 +1,35 @@
+stages:
+- build
+- test
+- deploy
+- job
+
+Job1:
+    stage: build
+    script:
+      - echo "Start..test"
+      - pwd
+      #- cd webapp
+      #- pwd
+      - npm install --save angular2-csv@0.2.5
+      #- ng config -g cli.warnings.versionMismatch false
+      - export NODE_OPTIONS=--max-old-space-size=8192
+      - ng build --prod --base-href /abhijittestapp/
+      #- pwd
+      #- cd ..
+      #- ls -lsa
+      
+      #- if [ ! -z "$(docker ps -a -q --filter ancestor=abhijittestapp --format="{{.ID}}")" ]; then
+      #- docker stop $(docker ps -a -q --filter ancestor=abhijittestapp --format="{{.ID}}")
+      #- docker rmi -f worthwealthapps
+      #- fi
+      #- docker build -f Dockerfile -t abhijittestapp .
+      #- docker run -d -p 80:80 -p 443:443 abhijittestapp
+      #- sh /opt/app-script/afterDeployment.sh abhijittestapp
+      - sh /opt/app-script/CreateOrUpate.sh abhijittestapp
+      - sh /opt/app-script/nginx.sh abhijittestapp
+      - sh /opt/app-script/afterDeployment.sh abhijittestapp
+      - echo "Success"
+
+    only:
+      - development1.0

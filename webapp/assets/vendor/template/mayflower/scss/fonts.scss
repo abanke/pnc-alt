@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Texta_Light";
+    src: url("../fonts/texta/texta-light-webfont.eot"),
+         url("../fonts/texta/texta-light-webfont.svg"),
+         url("../fonts/texta/texta-light-webfont.ttf"),
+         url("../fonts/texta/texta-light-webfont.woff"),
+         url("../fonts/texta/texta-light-webfont.woff2");
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Texta_Light_Italic";
+    src: url("../fonts/texta/texta-lightitalic-webfont.eot"),
+         url("../fonts/texta/texta-lightitalic-webfont.svg"),
+         url("../fonts/texta/texta-lightitalic-webfont.ttf"),
+         url("../fonts/texta/texta-lightitalic-webfont.woff"),
+         url("../fonts/texta/texta-lightitalic-webfont.woff2");
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Texta_Medium";
+    src: url("../fonts/texta/texta-medium-webfont.eot"),
+         url("../fonts/texta/texta-medium-webfont.svg"),
+         url("../fonts/texta/texta-medium-webfont.ttf"),
+         url("../fonts/texta/texta-medium-webfont.woff"),
+         url("../fonts/texta/texta-medium-webfont.woff2");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Texta_Medium_Italic";
+    src: url("../fonts/texta/texta-mediumitalic-webfont.eot"),
+         url("../fonts/texta/texta-mediumitalic-webfont.svg"),
+         url("../fonts/texta/texta-mediumitalic-webfont.ttf"),
+         url("../fonts/texta/texta-mediumitalic-webfont.woff"),
+         url("../fonts/texta/texta-mediumitalic-webfont.woff2");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Texta_Bold";
+    src: url("../fonts/texta/texta-bold-webfont.eot"),
+         url("../fonts/texta/texta-bold-webfont.svg"),
+         url("../fonts/texta/texta-bold-webfont.ttf"),
+         url("../fonts/texta/texta-bold-webfont.woff"),
+         url("../fonts/texta/texta-bold-webfont.woff2");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Texta_Bold_Italic";
+    src: url("../fonts/texta/texta-bolditalic-webfont.eot"),
+         url("../fonts/texta/texta-bolditalic-webfont.svg"),
+         url("../fonts/texta/texta-bolditalic-webfont.ttf"),
+         url("../fonts/texta/texta-bolditalic-webfont.woff"),
+         url("../fonts/texta/texta-bolditalic-webfont.woff2");
+    font-weight: 600;
+}
+$Texta-light: 'Texta_Light';
+$Texta-light-italic: 'Texta_Light_Italic';
+$Texta-bold: 'Texta_Bold';
+$Texta-bold-italic: 'Texta_Bold_Italic';
+$Texta-medium: 'Texta_Medium';
+$Texta-medium-italic: 'Texta_Medium_Italic';
