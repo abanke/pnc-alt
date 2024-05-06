@@ -134,6 +134,17 @@ const routes: Routes = [
     data: {
       title: 'pdfviewer', showPreHeader: false, showPostHeader: true, showPreFooter: false, showPostFooter: true, showSidebar: true
     }
+  },
+
+  {
+    path: 'proto-performance-dashboard',
+    loadChildren: () =>
+      import('./page/proto/performance-dashboard/performance-dashboard-routing.module').then(
+        m => m.PerformanceDashboardRoutingModule
+      ),
+    data: {
+      title: 'proto-performance-dashboard', showPreHeader: false, showPostHeader: true, showPreFooter: false, showPostFooter: true, showSidebar: true
+    }
   }
 ];
 

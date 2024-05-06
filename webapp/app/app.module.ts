@@ -56,11 +56,15 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
 
 
 import { BsModalRef, ModalModule } from 'ngx-bootstrap/modal';
+import { HeaderComponent } from './page/proto/common/header/header.component';
+import { PerformanceDashboardComponent } from './page/proto/performance-dashboard/performance-dashboard.component';
 @NgModule({
     declarations: [
         AppComponent,
         BreadcrumbComponent,
         AlertDialogComponent,
+        HeaderComponent,
+        PerformanceDashboardComponent,
     ],
     imports: [
         BrowserModule,

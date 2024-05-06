@@ -3,31 +3,33 @@
 <router-outlet>
 
 </router-outlet> -->
+<div class="quick-panel-right demo-panel-right offcanvas-right header-fixed subheader-enabled">
 
-<div class="row">
-  <div class="col-12">
-    <!-- Header -->
-
-    <app-preloginheader *ngIf="showPreHeader"></app-preloginheader>
-    <app-postloginheader *ngIf="showPostHeader"></app-postloginheader>
-  </div>
-</div>
-<div class="row">
-  <div class="sidebar" *ngIf="showSidebar">
-    <div class="sidebar-wrapper">
-      <app-menu *ngIf="showSidebar"></app-menu>
+  <div class="row">
+    <div class="col-12">
+      <!-- Header -->
+  
+      <app-preloginheader *ngIf="showPreHeader"></app-preloginheader>
+      <app-postloginheader *ngIf="showPostHeader"></app-postloginheader>
     </div>
   </div>
-  <div class="w-100">
-    <router-outlet>
-      <alert></alert>
-    </router-outlet>
+  <div class="row">
+    <div class="sidebar" *ngIf="showSidebar">
+      <div class="sidebar-wrapper">
+        <app-menu *ngIf="showSidebar"></app-menu>
+      </div>
+    </div>
+    <div class="w-100">
+      <router-outlet>
+        <alert></alert>
+      </router-outlet>
+    </div>
   </div>
-</div>
-<div class="row">
-  <div class="col-12">
-    <!-- Footer -->
-    <app-preloginfooter *ngIf="showPreFooter"></app-preloginfooter>
-    <app-postloginfooter *ngIf="showPostFooter"></app-postloginfooter>
+  <div class="row">
+    <div class="col-12">
+      <!-- Footer -->
+      <app-preloginfooter *ngIf="showPreFooter"></app-preloginfooter>
+      <app-postloginfooter *ngIf="showPostFooter"></app-postloginfooter>
+    </div>
   </div>
 </div>
