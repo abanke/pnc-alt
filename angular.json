@@ -23,6 +23,7 @@
               "webapp/assets"
             ],
             "styles": [
+              "webapp/assets/scss/reset.scss",
               "webapp/assets/vendor/bootstrap/scss/bootstrap.scss",
               "node_modules/datatables.net-dt/css/jquery.dataTables.css",
               "node_modules/@fortawesome/fontawesome-free/css/all.css",
@@ -30,6 +31,7 @@
               "webapp/assets/scss/app-components.scss",
               "webapp/assets/vendor/template/mobilefirst/scss/app-templates.scss",
               "webapp/assets/scss/application.scss",
+              "webapp/assets/scss/style.bundle.scss",
               "node_modules/@videogular/ngx-videogular/fonts/videogular.css",
               "node_modules/@ng-select/ng-select/themes/default.theme.css",
               "node_modules/aos/dist/aos.css"
